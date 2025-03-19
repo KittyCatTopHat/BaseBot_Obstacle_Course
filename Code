@@ -1,0 +1,77 @@
+myVariable = 0 
+
+ 
+
+def when_started1(): 
+
+global myVariable 
+
+drivetrain.set_drive_velocity(30, PERCENT) 
+
+drivetrain.drive_for(FORWARD, 49, INCHES) 
+
+drivetrain.turn_for(RIGHT, 45, DEGREES) 
+
+drivetrain.drive_for(FORWARD, 21, INCHES) 
+
+drivetrain.turn_for(RIGHT, 90, DEGREES) 
+
+drivetrain.drive_for(FORWARD, 17, INCHES) 
+
+drivetrain.turn_for(RIGHT, 20, DEGREES) 
+
+# The previous code was to maneuver Dex around our first obstacle (step 1) 
+
+drivetrain.drive_for(FORWARD, 27, INCHES) 
+
+drivetrain.turn_for(LEFT, 50, DEGREES) 
+
+drivetrain.drive_for(FORWARD, 18, INCHES) 
+
+drivetrain.turn_for(LEFT, 85, DEGREES) 
+
+drivetrain.drive_for(FORWARD, 18, INCHES) 
+
+drivetrain.turn_for(LEFT, 60, DEGREES) 
+
+drivetrain.drive_for(FORWARD, 18, INCHES) 
+
+drivetrain.turn_for(LEFT, 30, DEGREES) 
+
+drivetrain.drive_for(FORWARD, 28, INCHES) 
+
+# The previous code was used to move Dex around the stake 
+
+# There was multiple turns because the stake was bigger obstacle and harder to move around in one turn 
+
+drivetrain.turn_for(RIGHT, 90, DEGREES) 
+
+drivetrain.drive_for(FORWARD, 36, INCHES) 
+
+drivetrain.turn_for(LEFT, 70, DEGREES) 
+
+drivetrain.drive_for(FORWARD, 25, INCHES) 
+
+drivetrain.turn_for(LEFT, 45, DEGREES) 
+
+# This allowed Dex to move around the far post and align with the next obstacle 
+
+drivetrain.set_drive_velocity(75, PERCENT) 
+
+drivetrain.drive_for(FORWARD, 55, INCHES) 
+
+drivetrain.set_drive_velocity(30, PERCENT) 
+
+drivetrain.drive_for(REVERSE, 13, INCHES) 
+
+drivetrain.turn_for(LEFT, 90, DEGREES) 
+
+# This is where Dex becomes the GREATEST soccer player in the world (and does a sick wheelie) 
+
+drivetrain.drive_for(FORWARD, 102, INCHES) 
+
+# The previous line was the final stretch of the obstacle course where Dex will move the stack of rings 
+
+ 
+
+when_started1() 
